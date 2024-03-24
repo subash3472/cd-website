@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVD SHOP</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script defer src="/js/main.js"></script>
+    <script defer src="/js/cart.js"></script>
+</head>
+<body>
+
+       <!-- the flash available to pre-order -->
+    <div class="container">
+        <div class="tophead">
+            <a id="flash" href="#">The flash available to pre-order now</a>
+        </div>
+         
+           <!-- location -->
+        <div class="dropdown">
+            <div class="revlocation">
+            <div class="store">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#">Find a store or venue</a>
+                </div>
+            </div>
+            <!-- review -->
+        <div class="revhead">
+            <div class="review">Excellent</div>
+            <div class="stars">*****</div>
+        </div>    
+        </div>
+
+
+    </div>  
+      <!-- container ends -->
+
+         <!-- nav bars -->
+
+      <div class="maincontainer">
+
+     <div class="navcontainer">
+    
+      <div class="hmv">
+         <a href="#">hmv.com</a>
+      </div>
+       <!-- nav -->
+       <div class="last3">
+        
+       <div>
+              <!-- menu -->
+        <div class="menu">
+            
+            <i class="fas fa-bars"></i>
+            <input type="text" placeholder="search products" id="big_screen_search">
+          
+
+            </div> 
+                   <!--menu pannel content -->
+            <div class="pannel">
+                <div class="text_size">
+                    <!-- music -->
+                <div><p id="music">Music</p></div>
+                 <div id="musiclist">
+                    <ul>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">The 1921 centenary hmv Exclusive vinyl</a></li>
+                        <li><a href="#">Vinyl 3 for 55</a></li>
+                        <li><a href="#">Pride 2023</a></li>
+                        <li><a href="#">Festivals 2023</a></li>
+                        <li><a href="#">Vinyl &amp; CD Box Sets</a></li>
+                        <li><a href="#">Now CD Comps 2 for 16</a></li>
+                        <li><a href="#">Festivals 2023</a></li>
+                      </ul>
+                </div>
+                    <!-- flim -->
+                <div><p id="flim">Flim&TV</p></div>
+                <div id="flimlist">
+                   <ul>
+
+                      <li><a href="#">Flim&TV</a></li>
+                      <li><a href="#">Avatar:The way of water</a></li>
+                      <li><a href="#">All Flim & TV Pre-Orders</a></li>
+                      <li><a href="#">Collector's Blue-ray 2</a></li>
+                      <li><a href="#">flim & TV flashSale-50%</a></li>
+                   </ul>
+                </div>
+                                 <!-- techomology -->
+                <div><p id="technology">Technology</p></div>
+                <div id="technologyList">
+                   <ul>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Turntables</a></li>
+                    <li><a href="#">Headphones</a></li>
+                    <li><a href="#">Speakers</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Technology Offers</a></li>
+                    <li><a href="#"> Kids Tech</a></li>
+                   </ul>
+                </div>
+                <!-- merchandise -->
+
+                <div><p id="merchandise">Merchdise</p></div>
+
+                <div id="merchandiseList">
+                    <ul>
+                      <li><a href="#">Merchandise</a></li>
+                      <li><a href="#">50% off pop! Vinyl!</a></li>
+                      <li><a href="#">Funko pop Vinyl</a></li>
+                      <li><a href="#">Loungefly</a></li>
+                      <li><a href="#">Hasbro Collectibles</a></li>
+                      <li><a href="#">Graphic Novels</a></li>
+                    </ul>
+                  </div>
+                      <!-- gaming -->
+                <div><p id="gaming">Gaming</p></div>
+                <div id="gaminglist">
+                 <ul>
+                    <li><a href="#">Gaming</a></li>
+                    <li><a href="#">Final Fantasy XVL(16)</a></li>
+                    <li><a href="#">spiderman2</a></li>
+                    <li><a href="#">playstation 5 God of war Bundle officer</a></li>
+                    <li><a href="#">Gaming chart</a></li>
+                    <li><a href="#">All Gaming pre-orders</a></li>
+                 </ul>
+                </div>
+                    <!-- blog -->
+                <div><p id="blog">Blog</p></div>
+                <div id="bloglist">
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Flim & TV</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">podcasts</a></li>
+                        <li><a href="#">youtube</a></li>
+                    </ul>
+                </div>
+
+
+                <div><p>hmvLive</p></div>
+            </div>
+            </div>
+       </div>
+
+       <!-- search -->
+       <!-- <div> -->
+        <!-- <div class="cart_maincontainer"> -->
+       <div class="edit1">
+           <i class="fas fa-search"></i> <!-- for solid style -->
+       </div>
+       <!-- cart -->
+       <div class="edit2">
+           <i class="fas fa-shopping-cart"></i>
+      
+           <!-- slide cartslide -->
+           <div class="cartslide">
+        <h3 id="close1">close</h3><div id="close_cartslide"><i class="fas fa-times"></i></div>
+            <br><br>
+            <!-- <p >Close <p> -->
+
+
+                <br><br>
+         
+            <!-- this -->
+            <div class="subash">
+               
+                <div>
+                    <div id="cartlist">
+                      <!-- The shopping cart content will be displayed here -->
+                    </div>
+                  </div> 
+              </div>
+          <h3 id="close2">close</h3><div id="close_cartslide2"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+      </div>
+       
+       <!-- cart slid -->
+       </div>
+       <!-- </div>  -->
+                                  <!-- desktop screen  -->
+
+       <div class="main-nav-wrpper">
+        <nav class="main-nav">
+            <ul>
+
+           <li class="main-nav-item-music">Music<i class="fas fa-caret-down"></i></li>
+           <li class="main-nav-item-flim">Flim&Tv<i class="fas fa-caret-down"></i></li>
+           <li class="main-nav-item-technology">Technology<i class="fas fa-caret-down"></i></li>
+           <li class="main-nav-item-merchandise">Merchandise<i class="fas fa-caret-down"></i></li>
+           <li class="main-nav-item-gaming">Gaming<i class="fas fa-caret-down"></i></li>
+           <li class="main-nav-item-blog">Blog<i class="fas fa-caret-down"></i></li>
+           <li class="main-nav-item-hmvlive">hmvvLive<i class="fas fa-caret-down"></i></li>
+
+
+            </ul>
+ 
+
+
+        </nav>
+       </div>
+       <!--  -->
+
+       </div>
+       <!-- empty white space -->
+       <div id="whitespace"><p>Home</p></div>
+       <!-- dvd -->
+       <!-- <div><h1 id="dvd">DVD</h1> 
+        <p><span id="page_show">showing 1 -100 results</span></p> -->
+
+    <!-- </div> -->
+   <div class="dvd_main">
+     <p  id="dvd">DVD</p>
+     <p id="page_show">showing 1 -100 results</p>
+     <!-- check -->
+   </div>
+        <!-- movies lists -->
+        <!-- <div class="divide_container"> -->
+        <div class="cona">
+            <div class="a">
+
+           
+            <div class="sidebar-block--filter">  
+                <!-- <div class="head_format">   -->
+                <!-- </div>  -->
+                   <div class="formant_list"> 
+
+                    <div class="head_format">
+                        <br class="footer_line_li">
+                        <!-- <div class="line_through"></div>  -->
+                        
+                        <h4>format</h4>
+                        <div class="line_through"></div>
+                        <div class="checkbox-container"><input type="checkbox" id="format_checkbox"><label for="checkbox">DVD</label></div>
+                        <div class="line_through"></div>
+
+                       
+                        <div class="checkbox-container"><input type="checkbox" id="format_checkbox"><label for="checkbox">DVD and boxset</label></div>
+                        <div class="line_through"></div>
+                        
+
+
+                        <div class="checkbox-container"><input type="checkbox" id="format_checkbox"><label for="checkbox">CD/DVD Albam</label></div>
+                        <div class="line_through"></div>
+       
+
+                        <div class="checkbox-container"><input type="checkbox" id="format_checkbox"><label for="checkbox">CD Albam</label></div>
+                        <div class="line_through"></div>
+
+                    
+
+                        <button class="sct_but">SEE ALL</button>
+                        </div>  
+                     </div>                
+                <!-- </div>    -->
+                    <!-- genere -->
+                <div class="head_genere">
+                    <h4>Genre</h4>
+                    <div class="line_through_other"></div>
+
+                        <div class="genere_2"><input type="checkbox" id="genere_checkbox"><label for="checkbox">Television</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="genere_2"><input type="checkbox" id="genere_checkbox"><label for="checkbox">Action&Advantare</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="genere_2"><input type="checkbox" id="genere_checkbox"><label for="checkbox">Drama</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="genere_2"><input type="checkbox" id="genere_checkbox"><label for="checkbox">Hooror</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="genere_2"><input type="checkbox" id="genere_checkbox"><label for="checkbox">Science Friction</label></div>
+                        <div class="line_through_other"></div>
+
+                    <button class="sct_but">SEE ALL</button>
+                </div>
+                <!-- offers -->
+                <div class="head_offers">
+                    <h4>Offers</h4>
+                    <div class="line_through_other"></div>
+
+
+                    <div>
+                        <div class="offers_price"><input type="checkbox" id="genere_offers"><label for="checkbox">Was £6.99 Now £4.99</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="offers_price"><input type="checkbox" id="genere_offers"><label for="checkbox"> Was £11.99 Now £7.99</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="offers_price"><input type="checkbox" id="genere_offers"><label for="checkbox">Was £42.99 Now £12.99</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="offers_price"><input type="checkbox" id="genere_offers"><label for="checkbox">Was £56.99 Now £34.99</label></div>
+                        <div class="line_through_other"></div>
+
+                    </div>
+                       <button class="sct_but">SEE ALL</button>
+                </div>
+                <!-- realsie date -->
+                <div class="head_releasedate">
+                    <h4>Realise Date</h4>
+                    <div class="line_through_other"></div>
+
+                    <div>
+                        <div class="realsie_date"><input type="checkbox" id="realsie_date"><label for="checkbox">2023 july</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="realsie_date"><input type="checkbox" id="realsie_date"><label for="checkbox">W202 june3</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="realsie_date"><input type="checkbox" id="realsie_date"><label for="checkbox">2018</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="realsie_date"><input type="checkbox" id="realsie_date"><label for="checkbox">2020</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="realsie_date"><input type="checkbox" id="realsie_date"><label for="checkbox">2021</label></div>
+                        <div class="line_through_other"></div>
+
+
+                    </div>
+                     <button class="sct_but">SEE ALL</button>
+                </div>
+                <!-- certification -->
+                <div class="head_certification">
+                    <div class="line_through_other"></div>
+
+                    
+                    <h4>certification</h4>
+                    <div class="line_through_other"></div>
+
+                    <div>
+                        <div class="certification"><input type="checkbox" id="certification"><label for="checkbox">12</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="certification"><input type="checkbox" id="certification"><label for="checkbox">15</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="certification"><input type="checkbox" id="certification"><label for="checkbox">TBC</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="certification"><input type="checkbox" id="certification"><label for="checkbox">18</label></div>
+                        <div class="line_through_other"></div>
+
+                        <div class="certification"><input type="checkbox" id="certification"><label for="checkbox">U</label></div>
+                        <div class="line_through_other"></div>
+
+  
+                    </div>
+                     <button class="sct_but">SEE ALL</button>
+                </div>
+
+             <!-- brand -->
+             <div class="head_brand">
+                <h4>Brand</h4>
+                <div class="line_through_other"></div>
+
+                <div>
+                    <div class="brand"><input type="checkbox" id="brand"><label for="checkbox">Warmer Bros.Hont.</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="brand"><input type="checkbox" id="brand"><label for="checkbox">paramount Home Entme Eertainmet</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="brand"><input type="checkbox" id="brand"><label for="checkbox">Sony Pitures Home Ent</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="brand"><input type="checkbox" id="brand"><label for="checkbox">Universal Picturs</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="brand"><input type="checkbox" id="brand"><label for="checkbox">Walt Disney Studios Home Ent.</label></div>
+                    <div class="line_through_other"></div>
+
+
+                </div> 
+                    <button class="sct_but">SEE ALL</button>
+            </div>
+            <!-- pre-order -->
+            <div class="head_preoder">
+                <h4>pre-order</h4>
+                <div class="line_through_other"></div>
+
+                <div>
+                    <div class="pre-order"><input type="checkbox" id="pre-order"><label for="checkbox">No</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="pre-order"><input type="checkbox" id="pre-order"><label for="checkbox">Yes</label></div>
+                    <div class="line_through_other"></div>
+
+
+                </div>
+                
+                <button class="sct_but">SEE ALL</button>
+            </div>
+            <!-- diretor -->
+            <div class="head_director">
+                <h4>Director</h4>
+                <div class="line_through_other"></div>
+
+
+                <div>
+                    <div class="diretor"><input type="checkbox" id="diretor"><label for="checkbox">David yates</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="diretor"><input type="checkbox" id="diretor"><label for="checkbox">Kyle Batda</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="diretor"><input type="checkbox" id="diretor"><label for="checkbox">Steven spielberg</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="diretor"><input type="checkbox" id="diretor"><label for="checkbox">Tony SCOTT</label></div>
+                    <div class="line_through_other"></div>
+
+                    <div class="diretor"><input type="checkbox" id="diretor"><label for="checkbox">George Lucas</label></div>
+                    <div class="line_through_other"></div>
+
+                </div>
+                   <button class="sct_but">SEE ALL</button>
+            </div>
+
+            </div> 
+                        
+        <!-- </div> -->
+            </div>
+
+            <!-- <div class="empty-div"></div> -->
+            <!-- <div class="part_b"> -->
+            <div class="b">
+
+    <div class="movieouter_container" class="off-canvas.is-active">
+      
+        
+            
+            <div class="grid 1">
+                <img src="/pics/alien.jpg" alt="#">
+                <div class="buy details1">                
+                    <p>alien</p>
+                    <P>&#163;9.99</P>
+                    <P>DVD</P>
+                    <p class="addbasket">ADD TO BASKET</p>
+
+                </div>
+            </div>
+                             <!-- no 2 -->
+
+            <div class="grid 2">
+                <img src="/pics/avatar.jfif" alt="#">
+                <div class="buy details2">                
+                    <p>Avatar 1</p>
+                    <P>&#163;4.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                         <!-- no 3 -->
+
+            <div class="grid 3">
+                <img src="/pics/avatar.jpg" alt="#">
+
+                <div class="buy details3">                
+                    <p>Avatar 2</p>
+                    <P>&#163;12.11</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+
+                            <!-- no 4 -->
+            <div class="grid 4">
+                <img src="/pics/blackadam.jpg" alt="#">
+
+                <div class="buy details4">                
+                    <p>Black adam</p>
+                    <P>&#163;7.15</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 5 -->
+            <div class="grid 5">
+                <img src="/pics/bladerunner.webp" alt="#">
+
+                <div class="buy details5">                
+                    <p>Blade Runner</p>
+                    <P>&#163;4.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div> 
+                                <!-- no 6 -->
+            <div class="grid 6">
+                <img src="/pics/endergame.jpg" alt="#">
+                <div class="buy details6">                
+                    <p>Ender's Game</p>
+                    <P>&#163;16.40</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>            
+                             <!-- no 7 -->
+            <div class="grid 7">
+                <img src="/pics/evildead.jpg" alt="#">
+                <div class="buy details7">                
+                    <p>The evil dead</p>
+                    <P>&#163;16.41</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 8 -->
+            <div class="grid 8">
+                <img src="/pics/f9.jpg" alt="#">
+
+                <div class="buy details8">                
+                    <p>F9</p>
+                    <P>&#163;21.00</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 9 -->
+            <div class="grid 9">
+                <img src="/pics/mib.jpg" alt="#">
+
+                <div class="buy details9">                
+                    <p>Men In BLACK</p>
+                    <P>&#163;17.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div> 
+                            <!-- no 10 -->
+            <div class="grid 10">
+                <img src="/pics/topgun.jpg" alt="">
+
+                <div class="buy details">                
+                    <p>Top Gun</p>
+                    <P>&#163;16.74</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+
+                </div>
+            </div>
+
+            <!-- let check and try to add something new  -->
+            <div class="grid 1">
+                <img src="/pics/alien.jpg" alt="#">
+                <div class="buy details1">                
+                    <p>alien</p>
+                    <P>&#163;9.99</P>
+                    <P>DVD</P>
+                    <p class="addbasket">ADD TO BASKET</p>
+
+                </div>
+            </div>
+               <!-- next -->
+               <div class="grid 4">
+                <img src="/pics/blackadam.jpg" alt="#">
+
+                <div class="buy details4">                
+                    <p>Black adam</p>
+                    <P>&#163;7.15</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div> 
+            <!-- next -->
+            <div class="grid 2">
+                <img src="/pics/avatar.jfif" alt="#">
+                <div class="buy details2">                
+                    <p>Avatar 1</p>
+                    <P>&#163;4.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+
+            <!-- next -->
+                             <!-- no 5 -->
+            <div class="grid 5">
+                <img src="/pics/bladerunner.webp" alt="#">
+
+                <div class="buy details5">                
+                    <p>Blade Runner</p>
+                    <P>&#163;4.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div> 
+                                  <!-- no 8 -->
+            <div class="grid 8">
+                <img src="/pics/f9.jpg" alt="#">
+
+                <div class="buy details8">                
+                    <p>F9</p>
+                    <P>&#163;21.00</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>       
+       <!-- next -->
+       <div class="grid 9">
+        <img src="/pics/mib.jpg" alt="#">
+
+        <div class="buy details9">                
+            <p>Men In BLACK</p>
+            <P>&#163;17.01</P>
+            <P>DVD</P>
+            <P class="addbasket">ADD TO BASKET</P>
+        </div>
+    </div> 
+                    <!--  -->
+        <div class="grid 4">
+                <img src="/pics/blackadam.jpg" alt="#">
+
+                <div class="buy details4">                
+                    <p>Black adam</p>
+                    <P>&#163;7.15</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 5 -->
+            <div class="grid 5">
+                <img src="/pics/bladerunner.webp" alt="#">
+
+                <div class="buy details5">                
+                    <p>Blade Runner</p>
+                    <P>&#163;4.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>     
+            
+            <div class="grid 4">
+                <img src="/pics/blackadam.jpg" alt="#">
+
+                <div class="buy details4">                
+                    <p>Black adam</p>
+                    <P>&#163;7.15</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 5 -->
+            <div class="grid 5">
+                <img src="/pics/bladerunner.webp" alt="#">
+
+                <div class="buy details5">                
+                    <p>Blade Runner</p>
+                    <P>&#163;4.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div> 
+                                <!-- no 6 -->
+            <div class="grid 6">
+                <img src="/pics/endergame.jpg" alt="#">
+                <div class="buy details6">                
+                    <p>Ender's Game</p>
+                    <P>&#163;16.40</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>            
+                             <!-- no 7 -->
+            <div class="grid 7">
+                <img src="/pics/evildead.jpg" alt="#">
+                <div class="buy details7">                
+                    <p>The evil dead</p>
+                    <P>&#163;16.41</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 8 -->
+            <div class="grid 8">
+                <img src="/pics/f9.jpg" alt="#">
+
+                <div class="buy details8">                
+                    <p>F9</p>
+                    <P>&#163;21.00</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div>
+                            <!-- no 9 -->
+            <div class="grid 9">
+                <img src="/pics/mib.jpg" alt="#">
+
+                <div class="buy details9">                
+                    <p>Men In BLACK</p>
+                    <P>&#163;17.01</P>
+                    <P>DVD</P>
+                    <P class="addbasket">ADD TO BASKET</P>
+                </div>
+            </div> 
+                            <!-- no 10 -->
+         
+    </div> 
+                   
+        </div>
+        <!-- </div> -->
+            <!-- </div> -->
+
+
+
+
+        <!-- duv con -->
+        </div>
+                   <!-- page -->
+                <br><br>
+
+  <div><p class="page_end">page 1 of 100</p></div>   
+  
+  
+ <!-- end -->
+
+      <hr id="line_throuh_end">
+      <!-- </div> -->
+      <!-- </div> -->
+  
+    <!-- <div class="stay"> 
+      <h3>Stay in touch</h3>
+    </div>
+    <div class="socialmedia">
+      <div class="icons 1"><i class="fab fa-twitter-square"></i></div>
+      <div class="icons 2"><i class="fab fa-facebook-square"></i></div>
+      <div class="icons 3"><i class="fab fa-youtube-square"></i></div>
+      <div class="icons 4"><i class="fab fa-instagram-square"></i></div>
+    </div>
+  </div>  -->
+  <div class="grid_container">
+    <div class="email_details">
+      <div class="footerblock_1">
+        <h3 id="Letter_emails">Sign-up for emails</h3>
+        <!-- <h3>id="Letter_emails">Sign-up for emails</h3> -->
+        <p id="love_offers">I'd love to hear about offers and promotions from hmv*</p>
+        <input type="text" placeholder="Your email" id="input_email">
+        <p id="please_data">*Please see our privacy policy to find out how we and our affiliates collect and use your personal data</p>
+        <button id="submit">SUBMIT</button>
+      </div>
+      <div class="footerblock_grid1">
+        <hr class="customline">
+        <h3 id="text1">Helpful Information</h3>
+        <div id="text_slide1">
+          <p>Returns(online shop)</p>
+          <p>Returns(High street stores)</p>
+          <p>Help Centre</p>
+          <p>Klarna</p>
+        </div>
+        <hr class="customline">
+      </div>
+      <div class="footerblock_grid2">
+        <hr class="customline">
+        <h3 id="text2">Legal</h3>
+        <div id="text_slide2">
+          <p>Company information</p>
+          <p>Terms and conditions of use</p>
+          <p>Privacy policy</p>
+          <p>How we use Cookies</p>
+          <p>Supplier information</p>
+        </div>
+        <hr class="customline">
+      </div>
+      <div class="footerblock_grid3">
+        <hr class="customline">
+        <h3 id="text3">Explore hmv</h3>
+        <div id="text_slide3">
+          <p id="carees">hmv careers</p>
+          <!--  -->
+        </div>
+        <h3 id="staytouch">Stay in touch</h3>
+
+        <div class="socialmedia">
+          <div class="icons 1"><i class="fab fa-twitter-square"></i></div>
+          <div class="icons 2"><i class="fab fa-facebook-square"></i></div>
+          <div class="icons 3"><i class="fab fa-youtube-square"></i></div>
+          <div class="icons 4"><i class="fab fa-instagram-square"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+
+
+<!-- next -->
+
+     <div class="pattern">  
+        <div>
+          <h5><i class="fas fa-solid fa-copyright"></i>
+            2023 Sunrise Records and Entertainment Limited. All rights reserved.</h5>
+        </div>
+      </div>
+      
+   
+</div>   
+
+
+
+<!-- reworking-->
+
+
+               
+   
+          <!-- next -->
+          
+   <div class="fans_reg_email">  
+    <p id="fans_email">Sigh-up for emails</p>
+   </div> 
+    
+   <div>
+    <div class="slide_fans"><p>for the</p><p>FANS</p></div>
+   </div>   
+
+
+
+
+
+
+
+     
+    
+   
+
+</body>
+</html>
